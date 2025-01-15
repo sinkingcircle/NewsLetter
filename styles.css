@@ -1,0 +1,144 @@
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color:#2f2b2b;
+}
+
+.main-header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.main-header h1 {
+    margin: 0;
+    font-size: 3em;
+}
+
+.main-header h1 .highlight {
+    color: #ffcc00;
+}
+
+.navbar {
+    background-color: #444;
+    padding: 15px 0;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+.navbar ul {
+    margin: 0%;
+    display: flex;
+    justify-content: center;
+}
+
+.navbar li {
+    margin: 0 20px;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.navbar li:hover {
+    color: #ffcc00;
+}
+
+.breaking-news {
+    background-color: #ffcc00;
+    color: #333;
+    padding: 15px 0;
+    font-weight: bold;
+    font-size: 1.2em;
+    text-align: center;
+}
+
+.hero-header {
+    padding: 60px 0;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+.hero-header h2:hover{
+    color: #e1c80e;
+}
+
+.hero-header h2 {
+    font-size: 3em;
+    margin: 0;
+}
+
+.hero-header p {
+    font-size: 1.5em;
+}
+
+.news-articles {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    justify-items: center;
+    padding: 30px;
+}
+
+.news-item {
+    background: #ffcc00;
+    border-radius: 8px;
+    overflow: hidden;
+    width: 300px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.1s ease, box-shadow 0.3s ease;
+}
+
+.news-item:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 0 20px rgba(195, 153, 18, 0.2);
+}
+
+.news-articles p:hover, h2:hover{
+    color: aliceblue;
+
+}
+
+.news-item img {
+    width: 100%;
+    height: auto;
+}
+
+.news-item h2 {
+    margin: 15px;
+    font-size: 1.5em;
+}
+
+.news-item p {
+    margin: 15px;
+    font-size: 1em;
+}
+
+#footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    font-size: 0.9em;
+}
+
+.name-tag{
+
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0%;
+    margin-bottom: 0.5rem;
+
+}
+
+.name-tag:hover{
+
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #e1c80e;
+
+}
